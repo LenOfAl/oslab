@@ -1,0 +1,11 @@
+alias counter R0;
+alias sum R1;
+sum=0;
+counter = 0;
+while(counter <= 20) do
+	
+    sum=sum+(counter*counter);
+    print sum;
+    counter = counter + 1;
+    	breakpoint;
+endwhile;
