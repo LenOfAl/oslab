@@ -1,0 +1,8 @@
+load --os ../spl/spl_progs/os_startup_phase10.xsm
+load --init ../spl/spl_progs/init_phase10.xsm
+load --library ../expl/library.lib
+load --int=timer ../spl/spl_progs/timer_phase9.xsm
+load --exhandler ../spl/spl_progs/haltprogs.xsm
+load --int=10 ../spl/spl_progs/haltprogs.xsm
+load --int=7 ..spl/spl_progs/int7_phase10.xsm
+exit
