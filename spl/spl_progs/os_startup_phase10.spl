@@ -1,6 +1,5 @@
-//load INT7 module
-load(16,29);
-load(17,30);
+loadi(16,29);
+loadi(17,30);
 
 //load INIT prgm
 
@@ -54,4 +53,9 @@ PTLR=10;
 [PTBR+19] = "0110";
 SP = 8*512;
 [76*512] = [65 * 512 + 1];
+
+
+[PROCESS_TABLE + 11] = 80;
+[PROCESS_TABLE + 1] = 0;
+[SYSTEM_STATUS_TABLE + 1] = 0;
 ireturn;

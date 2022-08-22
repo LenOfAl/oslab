@@ -4,5 +4,4 @@ load --library ../expl/library.lib
 load --int=timer ../spl/spl_progs/timer_phase9.xsm
 load --exhandler ../spl/spl_progs/haltprogs.xsm
 load --int=10 ../spl/spl_progs/haltprogs.xsm
-load --int=7 ..spl/spl_progs/int7_phase10.xsm
-exit
+load --int=7 ../spl/spl_progs/int7_phase10.xsm
